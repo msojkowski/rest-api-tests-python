@@ -1,7 +1,10 @@
 name: Python Test Runner
 run-name: REST API Python Test
 on:
+  schedule:
+    - cron: "*/2 * * * *"
   push
+  
 jobs:
   Run-Tests:
     runs-on: ubuntu-latest
