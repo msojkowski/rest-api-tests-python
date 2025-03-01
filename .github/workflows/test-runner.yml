@@ -9,7 +9,7 @@ on:
         description: "Python version"
         required: true
         default: "3.13.2"
-  push
+  push:
 
 jobs:
   Run-Tests:
